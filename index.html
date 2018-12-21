@@ -10,19 +10,20 @@
   <body>   
     <section class="login">
       <div class="login__inner">
-        <div class="login-logo"><img class="login-logo__img" src="/assets/img/logo.svg" alt="logo"/>
-          <div class="login-logo__title">obeder</div>
+        <div class="logo"><img class="logo__img" src="/assets/img/logo.svg" alt="logo"/>
+          <div class="logo__title">obeder</div>
         </div>
         <div class="login-form">
           <div class="login-form__input-group">
-            <input class="login-form__input" type="mail" placeholder="Электропочта"/>
+            <input class="login-form__input" id="email" type="email" placeholder="Электропочта" name="email"/>
             <div class="login-form__input-underline"></div>
           </div>
           <div class="login-form__input-group">
-            <input class="login-form__input" type="text" placeholder="Кодовое слово"/>
+            <input class="login-form__input" id="pass" type="password" placeholder="Кодовое слово" name="pass"/>
             <div class="login-form__input-underline"></div>
           </div>
-        </div><a class="login-form__btn" href="/menu-schedule.html">Обедать!</a>
+          <div class="login-form__btn" id="log-btn">Обедать!</div>
+        </div>
         <div class="login-form__descr">Крайне мелкий текст поясняющий магические особенности входа или регистрации</div>
       </div>
     </section>
